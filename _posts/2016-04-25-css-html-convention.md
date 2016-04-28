@@ -16,11 +16,9 @@ author: anna
 Sublime Text 设置Tab为两个空格可以选择Preference > Settings - User，在其中添加以下这一段：
 
 
-{% highlight javascript %}
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
-{% endhighlight %}
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true
 
 
 ## 文件规范
@@ -41,9 +39,9 @@ Sublime Text 设置Tab为两个空格可以选择Preference > Settings - User，
   * class 为 - 连接的全小写字母，例如：eurus-table
   * id, name 为首字母小写的驼峰命名，例如：eurusTable
 
-  {% highlight css %}
-  <div class="css-name" id="idName" name="nameDiv"></div>
-  {% endhighlight%}
+{% highlight html %}
+<div class="css-name" id="idName" name="nameDiv"></div>
+{% endhighlight%}
 
 (3).文档类型的声明统一为HTML5声明类型，编码统一为UTF-8 如下代码:
 
@@ -123,13 +121,13 @@ class --> id、name --> data-* --> src、for、type、href --> title、all --> a
 (1). 可以将代码分为两个文件，一个是针对所有浏览器，一个是只针对IE，可以通过下面的方法导入,如下代码:
 
 {% highlight html %}
-<!—放置所有浏览器样式 -->
-<link rel ="stylesheet" type="text/css" href="">
+  <!-- 放置所有浏览器样式 -->
+  <link rel ="stylesheet" type="text/css" href="">
 
-<!—只放置ie-->
-<! --[if it ie 8]
-  < link rel="stylesheet" href="/stylesheet/ie.css">
-<! [end if]-->
+  <!-- 只放置ie -->
+  <!--[if it ie 8]
+    < link rel="stylesheet" href="/stylesheet/ie.css">
+  <! [end if]-->
 {% endhighlight %}
 
 (2). css样式新建或修改应该遵循以下原则:
@@ -154,7 +152,7 @@ margin:0px; /* 错误 */
 {% highlight css%}
 .div {
   -moz-border-radius:10px;
-  -wekkit-border-radius:10px;
+  -webkit-border-radius:10px;
   -ms-border-radius:10px;
   -o-border-radius:10px;
   border-radius:10px;
@@ -169,7 +167,7 @@ margin:0px; /* 错误 */
 
 {% highlight css%}
 .div {
-  property:value； /*所有浏览器*/
+  property:value; /*所有浏览器*/
  +property:value; /* ie 7 */
  _property:value; /* ie 6 */
  *property:value; /* ie 6-7 */
