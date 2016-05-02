@@ -1,18 +1,13 @@
 ---
 layout: default
-title: "Jekyll Docs Template"
+title: "前端工程师养成手册"
 ---
+## 公司
 
-### Get Started
+风豪科技，是一个梦开始的地方，我们践行着```We do IT Better```的信念，竭尽全力提供清新易用的IT解决方案。你可以在[Github](https://github.com/eurus) 上找到我们:)
 
-Start by [creating a new post](http://jekyllrb.com/docs/posts/) one of the categories listed in `_config.yml`. It will appear in the navigation on the left once recompiled. Or use the supplied script to make creating pages easier:
+## 由来
 
-```bash
-ruby bin/jekyll-page "Some Page Title" ref
-```
+起初（2015年下半年）我们建立了一个wiki页面来维护公司的知识库，每个有热情的小伙伴都可以投稿发言。然而，一段时间过去了，由于每个小伙伴的知识体系都略有差异，最后导致知识库过于碎片化，不成系统。
 
-#### Don't Forget
-
-- Add your own content to this page (i.e. `index.md`) and change the `title`
-- Change `title` and `subtitle` defined in `config.yml` for your site
-- Set the `baseurl` in `_config.yml` for your repo if deploying to GitHub pages
+前端技术发展飞快，也因此导致前端工程师规范化尤其头疼。为了统一团队工作习惯和风格，以及有针对性地编排知识库，我们重新开拓了这个工程。

@@ -121,3 +121,27 @@ td, th {
     font-size:1.04em;
 }
 
+#navigation .nav-header{
+    padding:15px 0 4px 12px;
+    font-size:1.06em;
+    color:#a9a9a9;
+}
+
+a{
+    color: #46B39E;
+    padding:0 4px;
+}
+a:hover{
+    color:#27ae60;
+}
+
+#navigation li a {
+    padding:6px 12px;
+}
+
+#navigation li a:hover{
+    color:white;
+    border-radius: 4px;
+    background: #1abc9c;
+}
+

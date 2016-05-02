@@ -22,10 +22,10 @@ author: 'Eurus Studio'
 # Default categories (in order) to appear in the navigation
 sections: [
     ['intro', '简介'],
-    ['css', 'Css 和 Html'],
-    ['js', 'Javascript'],
+    ['convention', '规范'],
     ['node', 'Node.js'],
     ['tools', '工具'],
+    ['subl', 'Sublime']
     ['example', '例子']
 ]
 
