@@ -23,9 +23,8 @@ author: 'Eurus Studio'
 sections: [
     ['intro', '简介'],
     ['convention', '规范'],
-    ['node', 'Node.js'],
     ['tools', '工具'],
-    ['subl', 'Sublime']
+    ['node', 'Node.js'],
     ['example', '例子']
 ]
 
