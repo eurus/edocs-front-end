@@ -2,7 +2,7 @@
 layout: page
 title: "Javascript 规范"
 category: convention
-date: 2016-05-02 18:43:16
+date: 2016-05-02 21:43:16
 author: simon
 ---
 ## 命名规则

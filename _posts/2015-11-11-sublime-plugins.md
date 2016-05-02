@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Sublime 常用插件"
-date:   2015-12-11 10:10:00
-categories: sublime
+date:   2015-11-11 10:10:00
+categories: tools
 author: simon
 ---
 
