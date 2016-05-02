@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "DRY with middleware"
-category: js
+category: node
 date: 2016-04-29 23:09:41
 author: banana
 ---

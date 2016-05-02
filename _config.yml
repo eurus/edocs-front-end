@@ -24,6 +24,7 @@ sections: [
     ['intro', '简介'],
     ['css', 'Css 和 Html'],
     ['js', 'Javascript'],
+    ['node', 'Node.js'],
     ['tools', '工具'],
     ['example', '例子']
 ]

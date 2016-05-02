@@ -70,7 +70,7 @@ Sublime Text 设置Tab为两个空格可以选择Preference > Settings - User，
   <!-- 设置IE的版本为最新版 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- 移动端自适应viewport设置 -->
-  <meta name="viewport" content="width=device-width,initial-scale=1",user-scalable=no>
+  <meta name="viewport" content="width=device-width,initial-scale=1" user-scalable=no>
   <!-- 网页图标 -->
   <link rel="web icon" href="favicon.ico">
 

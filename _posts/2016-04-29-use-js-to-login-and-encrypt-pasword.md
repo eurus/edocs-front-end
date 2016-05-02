@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "使用bcrypt来实现注册登录"
-category: example
+category: node
 date: 2016-04-29 13:00:43
 author: banana
 ---
@@ -14,12 +14,12 @@ author: banana
 "bcryptjs": "*"
 {% endhighlight %}
 
-什么是[bcrypt](https://zh.wikipedia.org/wiki/Bcrypt)：    
+什么是[bcrypt](https://zh.wikipedia.org/wiki/Bcrypt)：
 bcrypt是一个跨平台的文件加密工具。由它加密的文件可在所有支持的操作系统和处理器上进行转移。它的口令必须是8至56个字符，并将在内部被转化为448位的密钥。然而，所提供的所有字符都具有十分重要的意义。密码越强大，您的数据就越安全。
 
 除了对您的数据进行加密，默认情况下，bcrypt在删除数据之前将使用随机数据三次覆盖原始输入文件，以阻挠可能会获得您的计算机数据的人恢复数据的尝试。如果您不想使用此功能，可设置禁用此功能。
 
-bcrypt使用的是布鲁斯·施内尔在1993年发布的Blowfish加密算法。具体来说，bcrypt使用保罗·柯切尔的算法实现。随bcrypt一起发布的源代码对原始版本作了略微改动。    
+bcrypt使用的是布鲁斯·施内尔在1993年发布的Blowfish加密算法。具体来说，bcrypt使用保罗·柯切尔的算法实现。随bcrypt一起发布的源代码对原始版本作了略微改动。
 
 ## util.js
 
@@ -49,7 +49,7 @@ exports.comparePassword = function(password, userPassword, callback) {
 };
 {% endhighlight %}
 
-这边注意，任何时候请不要明文存储密码！！！     
+这边注意，任何时候请不要明文存储密码！！！
 在你需要使用的地方引入util.js即可
 
 ## 如何使用

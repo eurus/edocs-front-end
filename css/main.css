@@ -18,6 +18,12 @@ pre, code, pre code {
 */
 
 pre {
+    color: #eee;
+    background-color: #3b3b3b;
+    border-radius: 4px;
+}
+
+pre {
     font-size: 1em;
 }
 
@@ -95,3 +101,23 @@ td, th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
+
+.page-header h2{
+    font-size:1.6em;
+}
+#content *{
+    font-size:1.04em;
+}
+
+#content h2{
+    font-size:1.6em;
+}
+
+#content h3{
+    font-size:1.3em;
+}
+
+#navigation *{
+    font-size:1.04em;
+}
+
