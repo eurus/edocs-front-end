@@ -1,1 +1,3 @@
-x.js
+var x = function() {
+  alert('hey');
+}

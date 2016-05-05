@@ -137,6 +137,22 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404'  +  'e3
 
 [具体语法规则](http://docs.emmet.io/cheat-sheet/)
 
+### JsFormat - JS代码整理
+
+安装完成后，在js文件中以[ ctrl + alt + f ]触发
+
+如果需要每次保存文件时自动格式化，可以点击```Preferences > Package Settings > JsFormat > Settings - User```，然后将其内容改为：
+
+```json
+{
+    // jsformat options
+  "format_on_save": true,
+  "format_on_save_extensions": ["js", "json"]
+}
+```
+
+[参考文档](https://github.com/jdc0589/JsFormat)
+
 ### CSSComb - CSS属性整理
 
 需要提前安装node.js。安装完成后，在css文件中按下【 ctrl + shift + c 】或者点击菜单 ```Tools > Run CSSComb```即可规格化css文件
