@@ -115,6 +115,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404'  +  'e3
 
 * Jade
 * SCSS
+* Babel (es6语法支持)
 
 > 首先，需要安装 Package Control (见上述描述)
 
