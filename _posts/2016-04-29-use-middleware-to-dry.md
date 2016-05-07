@@ -41,7 +41,7 @@ router.use(function(req, res, next) {
 
 ### 侧边栏
 
-会有这样一种情况，你需要高亮侧边栏的某一个模块，你需要知道当前的action时什么，所以你才能够做出相应的判断，所以在view中，你可以使用session中的变量来坐判断了。
+会有这样一种情况，你需要高亮侧边栏的某一个模块，你需要知道当前的action是什么的时候，所以你才能够做出相应的判断，所以在view中，你可以使用session中的变量来坐判断了。
 
 {% highlight javascript %}
 router.use(function(req, res, next) {
