@@ -1,3 +1,11 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jekyll-docs-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# 风豪科技 - 前端工程师养成手册
 
-Read the docs: http://bruth.github.io/jekyll-docs-template
+## 公司
+
+风豪科技，是一个梦开始的地方，我们践行着```We do IT Better```的信念，竭尽全力提供清新易用的IT解决方案。你可以在[Github](https://github.com/eurus) 上找到我们:)
+
+## 由来
+
+起初（2015年下半年）我们建立了一个wiki页面来维护公司的知识库，每个有热情的小伙伴都可以投稿发言。然而，一段时间过去了，由于每个小伙伴的知识体系都略有差异，最后导致知识库过于碎片化，不成系统。
+
+前端技术发展飞快，也因此导致前端工程师规范化尤其头疼。为了统一团队工作习惯和风格，以及有针对性地编排知识库，我们重新开拓了这个工程。
