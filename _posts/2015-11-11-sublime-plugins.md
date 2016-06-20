@@ -148,7 +148,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404'  +  'e3
 {
     // jsformat options
   "format_on_save": true,
-  "format_on_save_extensions": ["js", "json"]
+  "format_on_save_extensions": ["js", "json", "es6"]
 }
 ```
 
